@@ -1,0 +1,32 @@
+Nom : EasyNewsLetter
+
+Idées : Une application qui facilite la veille technologique
+
+Ce que l'utilisateur pourra faire : 
+- L'utilisateur pourra rechercher des news en fonction de ses centres d'intérets (data, inge, scientist, dev web, IA, scrum, gouvernance,  etc ...)
+, des languages (python, js, php, etc ...)
+, des outils (environnement de dev, outils IA, plannificateur scrum, etc ...)
+, des newsletters (data elixir, etc ...)
+
+- L'utilisateur pourra sauvegarder les news pour les lire plus tard et aura la possibilité de les retrouver facilement
+
+- L'utilisateur pourra créer sa propre newsletter personnalisé conernant ce qui l'interesse, à l'intervalle qu'il souhaite.
+
+Front end : Sobre, facile d'utilisation, expérience utilisateur first
+techno : HTML, CSS, JS, salade, tomate, oignon
+
+Back end : 
+- Application en ligne (AWS EC2)
+- Application, bdd, traitement de la donnée dans différents containers (Docker)
+
+Collecte de la donnée : 
+- Récolte des newsletter par email ou API si dispo
+
+Transformation de la donnée:
+- Récupérer les titres et lien des news dans les newsletter
+- Récupérer la date, le nom de la newletter, et autres informations potentiellement utile
+- Extraire le contenu de la news, en faire une phrase/introduction d'accroche à l'aide de chatGPT
+
+Stockage de la donnée:
+- Dase de donnée relationnel 
+
